@@ -1,0 +1,1 @@
+pascal[i].resize(i+1);
