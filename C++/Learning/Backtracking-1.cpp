@@ -62,6 +62,7 @@ We have considered a rat as a character that can move either forward or downward
 In the maze matrix, a few blocks are denoted by 0, representing dead blocks, and active blocks are denoted by 1. 
 A rat can move only in the active blocks.
 
+-Time complexity :- O(2^(N^2))
 
 #include<iostream>
 #include<vector>
@@ -171,6 +172,7 @@ int main(){
 -3.N-Queen - Consider an N*N chessboard. N Queen Problem is to accommodate N queens on the N*N chessboard such that
 no 2 queens can attack each other.
 
+-Time complexity :- O(N!)
 
 #include<iostream>
 #include<vector>
